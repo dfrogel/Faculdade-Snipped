@@ -1,4 +1,5 @@
-![image](https://github.com/dfrogel/Faculdade-Snipped/assets/129911019/f6290c2a-3155-42d6-bf40-e9856beb10ec)
+![image](https://github.com/dfrogel/Faculdade-Snipped/assets/129911019/2c715f5b-0c08-484a-9770-9d0a7d43e9b0)
+
 
 # Summary
 
