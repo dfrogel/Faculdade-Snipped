@@ -1,5 +1,16 @@
 ![image](https://github.com/dfrogel/Faculdade-Snipped/assets/129911019/f6290c2a-3155-42d6-bf40-e9856beb10ec)
 
+# Summary
+
+- [What do we have here](#-what-do-we-have-here)
+- [Programming languages](#-programming-languages)
+- [Repository Structure]([#-repository-structure])
+- [Running the Examples]([#-running-the-examples])
+  - [C++](-c)
+  - [Python](-python)
+  - [Java](-java)
+  - [JavaScript](-javascript)
+ 
 ## ✨ What do we have here?
 
 Here you'll find a collection of solutions and code in a variety of programming languages, covering concepts such as object-oriented programming (OOP), structured programming, and much more. These examples were followed during my college studies, and I hope they can help you learn and improve your programming skills.
