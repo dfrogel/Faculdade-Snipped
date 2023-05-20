@@ -122,6 +122,6 @@ node exemplo1.js
 Contributions are welcome! If you have additional examples in other programming languages or improvements to existing examples, feel free to open a pull request. Your contribution is valuable to make this repository even better.
 
 ## ✒️ Author
-Eduarda Frogel 
+Eduarda Frogel ;)
 
 
