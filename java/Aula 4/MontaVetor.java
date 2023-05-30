@@ -1,5 +1,3 @@
-package java.Aula 4;
-
 public class MontaVetor {
     public static void main(String[] args) {
         int vet[] = new int [5];
@@ -15,3 +13,4 @@ public class MontaVetor {
         }
     }
 }
+
