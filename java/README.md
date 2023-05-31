@@ -73,3 +73,41 @@ Lançada para indicar que um vetor foi acessado com um índice ilegal, como valo
 System.out.printf("%d", "5"); --> IllegalFormatConversionException
 
 Scanner sc = new Scanner(System.in); --> InputMismatchException
+
+## Operação sobre Vetores
+
+Declaração de um vetor
+tipo nomeVetor[];
+
+Alocação de espaço de um vetor
+nomeVetor = new tipo [tamanho];
+
+Declaração e alocação de um vetor
+tipo nomeVetor[] = new tipo[tamanho];
+
+Acesso de uma posição do vetor
+nomeVetor[indice];
+
+Atribuição de um valor a uma posição
+nomeVetor[indice] = valor;
+
+Acesso ao tamanho de um vetor;
+
+## Formas de Criar e inicializar vetores
+
+| Tipo do vetor |           Exemplo 1             |
+| ------------- | ------------------------------- |
+| Inteiro       | int vet[] = {1,5,3,4};          |
+| Real          | double vet[] = {2.0, 5.3, 3.8}; |
+| Caractere     | char vet[] = {'a', 'e', 'i'};   | 
+
+## Criando matriz
+|          Operação sobre Matrizes             |              Exemplo de código               |
+| -------------------------------------------- | -------------------------------------------- |
+| Declaração de uma matriz                     | tipo nomeMatriz[][];                         |
+| Alocação de espaço de uma matriz             | nomeMatriz = new tipo[tamX][tamY];           |
+| Declaração e alocação de uma matriz          | tipo nomeMatriz[][] =  new tipo[tamX][tamY]; |
+| Acesso de uma posição da matriz              | nomeMatriz[indiceX][indiceY];                |
+| Atribuição de um valor a uma posição         | nomeMatriz[indiceX][indiceY] = valor;        |
+| Acesso ao número de linhas                   | nomeMatriz.lenght;                           |
+| Acesso ao número de colunas da i-ésima linha | nomeMatriz[i].lenght;                        |
