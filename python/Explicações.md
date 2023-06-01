@@ -1,106 +1,63 @@
-## Variáveis e tipos básicos de dados em Python
-As variáveis são usadas para armazenar valores, como números, texto ou outros tipos de dados, em uma área de memória identificada por um nome. Isso permite que os dados sejam acessados e manipulados durante a execução do programa.
+# Variáveis e Tipos Básicos de Dados em Python
+As variáveis são usadas para armazenar valores em uma área de memória identificada por um nome. 
+Em Python, o tipo da variável é determinado no momento da atribuição de um valor. 
+Não existem tipos primitivos em Python, pois as variáveis referem-se a valores.
 
-Muitas linguagens de programação possuem variáveis com tipo primitivo, como int, ou string – em Python esses tipos primitivos não existem. 
+# Operadores Numéricos
+Os operadores numéricos em Python permitem realizar operações matemáticas em números. Aqui estão os símbolos utilizados:
 
-Na linguagem Python, o tipo de variável é identificado no momento que se atribui um valor a ela. Portanto, uma variável refere-se a um valor.
+- Adição (+)
+- Subtração (-)
+- Multiplicação (*)
+- Divisão (/)
+- Divisão inteira (//)
+- Resto da divisão (%)
+- Exponenciação (**)
+- Incremento (+=)
+- Decremento (-=)
 
-## Operadores numéricos
-Os operadores numéricos em Python são símbolos especiais que permitem realizar operações matemáticas em números. Aqui está uma explicação bem resumida dos operadores numéricos em Python:
+# Estruturas Condicionais em Python
+As estruturas condicionais permitem executar diferentes blocos de código com base em condições. Em Python, as estruturas condicionais são representadas pelos comandos if, else e elif.
 
-| **Operador** | **Símbolo** | **Descrição** | 
-|----------|---------|-----------|
-| Adição   | + | Realiza a adição entre dois números |
-| Subtração | - | Realiza a subtração entre dois números |
-| Multiplicação | * | Realiza a multiplicação entre dois números |
-| Divisão | / | Realiza a divisão entre dois números |
-| Divisão inteira | // | Realiza a divisão inteira entre dois números |
-| Resto da divisão | % | Retorna o resto da divisão entre dois números |
-| Exponenciação | ** | Realiza a exponenciação de um número elevado a outro |
-| Incremento | += | Incrementa o valor de uma variável com outro valor |
-| Decremento | -= | Decrementa o valor de uma variável com outro valor |
+- if: Executa um bloco de código se a condição for verdadeira.
+- else: Executa um bloco de código se a condição do if for falsa.
+- elif: Executa um bloco de código se uma condição intermediária for verdadeira.
 
-## Estruturas condicionais em Python
-Em Python o comando para as estrutura condicional é dada por if, else, elif.
+# Estruturas de Repetição em Python
+As estruturas de repetição permitem executar um bloco de código repetidamente. Em Python, as estruturas de repetição são representadas pelos comandos while e for.
 
-### If (se)
-Estrutura de condição que avalia uma expressão executando caso essa seja verdadeira. Estrutura:
+- while: Executa um bloco de código enquanto uma condição for verdadeira.
+- for: Executa um bloco de código para cada item em uma sequência.
 
-```
-if .....:
- print (....)
+# Operadores Lógicos em Python
+Os operadores lógicos permitem combinar condições em expressões lógicas mais complexas. Em Python, os operadores lógicos são representados por palavras-chave:
 
-``` 
+- and: Retorna verdadeiro se todas as condições forem verdadeiras.
+- or: Retorna verdadeiro se pelo menos uma condição for verdadeira.
+- not: Inverte o valor de uma expressão lógica.
 
-### Else (senão)
-Instrução dependente que completa a estrutura if executada quando expressão não ser satisfatória (falsa). Estrutura: 
+# Funções Built-in em Python
+As funções built-in em Python são funções integradas no interpretador Python. Algumas das principais funções built-in em Python são:
 
-```
-else .....:
- print (....)
+- print(): Exibe um valor na tela.
+- enumerate(): Retorna a posição de um valor em uma sequência.
+- input(): Captura um valor digitado pelo usuário.
+- int() e float(): Convertem um valor para os tipos inteiro e float, respectivamente.
+- type(): Retorna o tipo de um objeto (variável).
 
-```
-
-### Elif
-Abreviação do else if executa expressões intermediárias. Estrutura:
-
-```
-elif .....:
- print (....)
-
-```
-
-## Estruturas de repetição em Python: while e for
-Essas estruturas são criadas para a necessidade de se executar várias vezes o mesmo trecho de código.
-
-### While (enquanto)
-Permite que um conjunto de instruções seja executada enquanto uma condição for verdadeira. 
+# Funções Definidas pelo Usuário
+Além das funções built-in, é possível definir funções personalizadas. As funções definidas pelo usuário são criadas usando a palavra-chave "def" seguida pelo nome da função, parênteses para os parâmetros e, opcionalmente, a palavra-chave "return" para retornar um valor.
 
 ```
-while .....:
- print (....)
+EXEMPLO: 
+ def saudacao(nome):
+    print(f"Olá, {nome}! Bem-vindo(a)!")
 
-```
-### For
-Executa uma instrução por uma certa quantidade de vezes.
-
-```
-for .....:
- print (....)
+ saudacao("Eduarda")
 
 ```
 
-## Estruturas lógicas em Python
-Em Python utilizamos operadores booleanos para construir estruturas de decisões mais complexas.
+# Break e Continue
+O break é usado para interromper imediatamente a execução de um loop, enquanto o continue é usado para pular para a próxima iteração do loop sem executar o restante do código para aquela iteração em particular.
 
-### And
-Retorna verdadeiro quando ambos A e B forem verdadeiros
 
-### OR
-Retorna verdadeiro retorna Verdadeiro (TRUE), se A ou B ou ambos forem verdadeiros (TRUE).
-
-### NOT
-Retorna verdadeiro (TRUE) se A for falso. Ou retorna falso, quando A for verdadeiro.
-
-## Funções built-in em Python
-Uma função built-in é um objeto que está integrado ao núcleo do interpretador Python. Ou seja, não precisa ser feita nenhuma instalação adicional, já está pronto para uso. O interpretador Python possui várias funções disponíveis.
-
-Algumas das principais: 
-
-| **Função** | **Descrição** |
-|------------|---------------|
-| print() | Usada para imprimir um valor na tela |
-| enumarate() | Usada para retornar a posição de um valor em uma sequência |
-| input() | Usada para capturar um valor digitado no teclado |
-| int() e float() | Usadas para converter um valor no tipo inteiro ou float | 
-| type() | Usada para saber qual é o tipo de um objeto (variável) | 
-
-## Função definidas pelo usuário
-Além das Funções built-in, muitas vezes as soluções exigem a implementação de funções específicas, as quais são chamadas de funções definidas pelo usuário. 
-
-A sintaxe de uma função em Python é feita com:
-
-- A palavra reservada def
-- O nome da função
-- Os parênteses que indicam se existem ou não parâmetros para a função
-- E o comando return (que é opcional)
