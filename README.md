@@ -7,10 +7,6 @@
 - [Programming languages](#-programming-languages)
 - [Repository Structure]([#-repository-structure])
 - [Running the Examples]([#-running-the-examples])
-  - [C++](-c)
-  - [Python](-python)
-  - [Java](-java)
-  - [JavaScript](-javascript)
  
 ## ✨ What do we have here?
 
