@@ -1,16 +1,4 @@
 ![image](https://github.com/dfrogel/Faculdade-Snipped/assets/129911019/2c715f5b-0c08-484a-9770-9d0a7d43e9b0)
-
-
-# Summary
-
-- [What do we have here](#-what-do-we-have-here)
-- [Programming languages](#-programming-languages)
-- [Repository Structure]([#-repository-structure])
-- [Running the Examples]([#-running-the-examples])
-  - [C++](-c)
-  - [Python](-python)
-  - [Java](-java)
-  - [JavaScript](-javascript)
  
 ## ✨ What do we have here?
 
