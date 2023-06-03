@@ -150,3 +150,66 @@ O algoritmo de ordenação merge sort é baseado no princípio "dividir para con
 
 ## Quick Sort (Ordenação Rápida)
 O algoritmo de ordenação quick sort é baseado no princípio de "dividir para conquistar" e usa a estratégia de "pivô". Ele seleciona um elemento como pivô e divide a lista em duas partes: uma parte com elementos menores que o pivô e outra parte com elementos maiores que o pivô. Em seguida, o processo é aplicado recursivamente às duas partes. O quick sort é eficiente e geralmente mais rápido que outros algoritmos de ordenação.
+
+# Definições Importantes em Python
+A seguir estão algumas definições importantes relacionadas à programação em Python:
+
+## Objetos
+Em Python, um programa orientado a objetos é composto por uma coleção de objetos. Um objeto é uma instância de uma classe e representa uma entidade que possui atributos (dados) e métodos (comportamentos).
+
+## Classe
+Uma classe é um modelo ou uma estrutura que define as características e comportamentos que um objeto do tipo dessa classe terá. É como um plano ou uma descrição para criar objetos. As classes são usadas para organizar dados e funcionalidades relacionadas em um único bloco.
+
+## Instância
+Uma instância é um objeto específico criado a partir de uma classe. É a existência física de um objeto em memória.
+
+## Atributos 
+Os atributos são os dados armazenados em um objeto que representam o estado do objeto. Eles são as características que diferenciam os objetos. Os atributos podem ser variáveis ou propriedades associadas a um objeto.
+
+## Métodos
+Os métodos são os comportamentos de um objeto, ou seja, as ações que um objeto pode realizar. Eles são as funções definidas dentro de uma classe que operam em objetos daquela classe. Os métodos permitem que os objetos executem tarefas específicas e interajam com seus atributos e outros objetos. 
+
+## Encapsulamento
+O encapsulamento é a combinação de atributos e métodos dentro de uma mesma entidade, a classe. É a prática de ocultar certos detalhes de implementação de um objeto e fornecer uma interface para interagir com ele. Em Python, o encapsulamento é alcançado por meio do uso de modificadores de acesso, como atributos privados e métodos públicos.
+
+## Construtor da Classe - __init__()
+O método **__init__()** é um construtor especial em Python que é chamado automaticamente quando um objeto é criado a partir de uma classe. Ele é usado para inicializar os atributos de um objeto com valores iniciais. O parâmetro **self** é usado para referenciar o objeto sendo criado.
+
+# Organização em Módulos
+Os módulos em Python são arquivos que contêm definições de classes, funções e variáveis relacionadas a um determinado assunto. Eles são usados para organizar o código em unidades lógicas e reutilizáveis. Os módulos podem ser importados e usados em outros programas Python.
+
+## Bibliotecas
+As bibliotecas em Python são conjuntos de módulos que fornecem funcionalidades específicas para tarefas comuns. Existem bibliotecas built-in, que são fornecidas com a instalação do interpretador Python, e bibliotecas de terceiros, que são criadas por desenvolvedores externos e disponibilizadas para uso geral.
+
+## Como utilizar um módulo
+Para usar um módulo em um programa Python, ele precisa ser importado. A importação de módulos pode ser feita de diferentes maneiras, como **import modulo, import modulo as alias ou from modulo import item**. Essas formas de importação permitem acessar as funcionalidades do módulo e usá-las em um programa.
+
+## Classificação dos Módulos (Bibliotecas)
+Os módulos em Python podem ser classificados em três categorias principais: módulos built-in, módulos de terceiros e módulos próprios. Cada uma dessas categorias desempenha um papel importante na organização e reutilização de código.
+
+### Módulos Built-in
+Os módulos built-in são aqueles que fazem parte da biblioteca padrão do Python e são embutidos no interpretador Python. Eles são fornecidos juntamente com a instalação do Python e oferecem funcionalidades essenciais para tarefas comuns. Alguns exemplos de módulos built-in são:
+
+- **math**: fornece funções matemáticas e operações numéricas avançadas.
+- **os**: fornece funcionalidades relacionadas ao sistema operacional, como manipulação de arquivos, acesso ao ambiente do sistema, etc.
+- **datetime**: fornece classes para manipulação de datas, horas e intervalos de tempo.
+- **random**: fornece funções para geração de números aleatórios.
+- **re**: fornece suporte a expressões regulares para manipulação de texto.
+
+Esses módulos built-in são amplamente utilizados e são uma parte fundamental da biblioteca padrão do Python.
+
+### Módulos de Terceiros
+Os módulos de terceiros são bibliotecas desenvolvidas por terceiros e disponibilizadas através do Python Package Index (PyPI) ou de outros repositórios. Essas bibliotecas contêm funcionalidades específicas que podem ser úteis para diferentes propósitos, desde análise de dados até desenvolvimento web. Alguns exemplos populares de módulos de terceiros são:
+
+- **numpy**: biblioteca para computação numérica com suporte a arrays multidimensionais e funções matemáticas avançadas.
+- **pandas**: biblioteca para manipulação e análise de dados, oferecendo estruturas de dados flexíveis e eficientes.
+- **matplotlib**: biblioteca para criação de gráficos e visualização de dados.
+- **requests**: biblioteca para fazer requisições HTTP, permitindo a comunicação com APIs e acesso a recursos na web.
+- **django**: framework web completo e poderoso para desenvolvimento rápido de aplicações web.
+Esses módulos de terceiros ampliam as funcionalidades do Python e permitem a criação de soluções mais complexas e especializadas.
+
+### Módulos Próprios
+Os módulos próprios são aqueles criados pelos desenvolvedores para seus próprios projetos. Eles são usados para organizar o código em unidades lógicas e reutilizáveis dentro de um projeto específico. Os módulos próprios podem conter classes, funções e variáveis relacionadas a um determinado domínio ou funcionalidade. Ao criar módulos próprios, os desenvolvedores podem encapsular a lógica do programa e facilitar a manutenção e expansão do código.
+
+A criação de módulos próprios é uma prática comum na programação Python, permitindo a modularização e reutilização do código em diferentes partes do projeto.
+
