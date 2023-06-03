@@ -175,7 +175,7 @@ O encapsulamento é a combinação de atributos e métodos dentro de uma mesma e
 ## Construtor da Classe - __init__()
 O método **__init__()** é um construtor especial em Python que é chamado automaticamente quando um objeto é criado a partir de uma classe. Ele é usado para inicializar os atributos de um objeto com valores iniciais. O parâmetro **self** é usado para referenciar o objeto sendo criado.
 
-# Organização em Módulos
+# Organização em Módulos (Bibliotecas)
 Os módulos em Python são arquivos que contêm definições de classes, funções e variáveis relacionadas a um determinado assunto. Eles são usados para organizar o código em unidades lógicas e reutilizáveis. Os módulos podem ser importados e usados em outros programas Python.
 
 ## Bibliotecas
@@ -212,4 +212,3 @@ Esses módulos de terceiros ampliam as funcionalidades do Python e permitem a cr
 Os módulos próprios são aqueles criados pelos desenvolvedores para seus próprios projetos. Eles são usados para organizar o código em unidades lógicas e reutilizáveis dentro de um projeto específico. Os módulos próprios podem conter classes, funções e variáveis relacionadas a um determinado domínio ou funcionalidade. Ao criar módulos próprios, os desenvolvedores podem encapsular a lógica do programa e facilitar a manutenção e expansão do código.
 
 A criação de módulos próprios é uma prática comum na programação Python, permitindo a modularização e reutilização do código em diferentes partes do projeto.
-
